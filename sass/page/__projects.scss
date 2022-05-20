@@ -83,8 +83,9 @@
     }
 }
 .myProjects__last_pic {
-    object-fit: none;
-    height: 40%;
+    object-fit: none !important;
+    height: 40% !important;
+    width: 80% !important;
 }
 
 .myProjects__img_2 {

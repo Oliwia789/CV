@@ -922,11 +922,21 @@ footer a {
 }
 
 .myProjects__last_pic {
-  border-radius: 20px;
+  object-fit: none !important;
+  height: 40% !important;
+  width: 80% !important;
 }
 
 .myProjects__img_2 {
   height: 40%;
+}
+
+.myProjects__last_pic_repozen {
+  object-fit: none;
+}
+
+.myProjects_linkProj {
+  color: white;
 }
 
 .contactMe {
