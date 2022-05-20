@@ -83,19 +83,21 @@
     }
 }
 .myProjects__last_pic {
-    object-fit: none !important;
     height: 40% !important;
-    width: 80% !important;
+    width: 60% !important;
+    border-radius: 20px;
 }
 
 .myProjects__img_2 {
     height: 40%;
 }
 
-.myProjects__last_pic_repozen {
-    object-fit: none;
-}
-
 .myProjects_linkProj {
     color: white;
+    line-break: anywhere;
+    font-weight: bold;
+}
+
+.pc_img {
+    object-fit: contain !important;
 }

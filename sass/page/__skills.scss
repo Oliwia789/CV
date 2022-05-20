@@ -98,6 +98,7 @@
             span {
                 @include mobile {
                     margin-top: auto!important;
+                    font-size: 17px;
                 }
             }
         }
@@ -142,6 +143,7 @@
     border-radius: 25px;
     width: 20%;
     align-items: center;
+    font-size: 13px;
     i {
         font-size: 35px;
         padding: 10%;

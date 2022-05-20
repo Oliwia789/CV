@@ -521,12 +521,12 @@ footer a {
 }
 @media screen and (max-width: 767px) {
   .aboutMe__main__part2__container hr {
-    height: 600px;
+    height: 530px;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1050px) {
   .aboutMe__main__part2__container hr {
-    height: 600px;
+    height: 620px;
   }
 }
 .aboutMe__main__part2__card {
@@ -543,7 +543,7 @@ footer a {
 }
 
 .noLast__card {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1050px) {
@@ -688,6 +688,7 @@ footer a {
 @media screen and (max-width: 767px) {
   .skills__part2__card span {
     margin-top: auto !important;
+    font-size: 17px;
   }
 }
 .skills__part2__container2 {
@@ -735,6 +736,7 @@ footer a {
   border-radius: 25px;
   width: 20%;
   align-items: center;
+  font-size: 13px;
 }
 .skills__card i {
   font-size: 35px;
@@ -922,21 +924,23 @@ footer a {
 }
 
 .myProjects__last_pic {
-  object-fit: none !important;
   height: 40% !important;
-  width: 80% !important;
+  width: 60% !important;
+  border-radius: 20px;
 }
 
 .myProjects__img_2 {
   height: 40%;
 }
 
-.myProjects__last_pic_repozen {
-  object-fit: none;
-}
-
 .myProjects_linkProj {
   color: white;
+  line-break: anywhere;
+  font-weight: bold;
+}
+
+.pc_img {
+  object-fit: contain !important;
 }
 
 .contactMe {
@@ -1059,6 +1063,12 @@ footer a {
 
 .last-span {
   margin-right: 10%;
+}
+
+.link-blue {
+  color: #14c9d2;
+  margin: 0;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
